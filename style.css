@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: rgb(246, 247, 251);
+      color: rgb(0, 0, 0);
+      font-family: "Poppins", sans-serif;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.navbar {
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      border-radius: 10px;
+      width: 90vw;
+      position: fixed;
+      top: 3%;
+      left: 50vw;
+      transform: translateX(-50%); /* Agar berada di tengah horizontal */
+      box-shadow: 0px 10px 85px rgba(0, 0, 0, 0.1);
+}
+
+.navicon {
+      color: rgb(0, 0, 0);
+}
+
+.navlink {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+
+.navlink2 {
+      list-style: none;
+      display: flex;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background-color: rgb(239, 241, 247);
+      border-radius: 10px;
+      width: 90px;
+      height: 30px;
+      margin: 0;
+      padding: 2.5px;
+      justify-content: center;
+}
+
+.navlink li {
+      position: relative;
+}
+
+.navlink a {
+      text-decoration: none;
+      color: rgb(187, 189, 199);
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 5px 10px;
+      transition: 0.2s linear, border-bottom 0.2s linear;
+      font-family: "Poppins", sans-serif;
+}
+
+.navlink a:hover {
+      color: rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      font-family: "Poppins", sans-serif;
+}
+
+.navlink2 a {
+      text-decoration: none;
+      color: rgb(187, 189, 199);
+      border-radius: 10px;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 5px 10px;
+      transition: linear 0.2s
+}
+
+.navlink2 a:hover {
+      color: rgb(255, 255, 255);
+      background-color: black;
+      border-radius: 10px;
+      transition: linear 0.2s;
+      font-family: "Poppins", sans-serif;
+}
+
+.icon {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+}
+
+article {
+      font-family: "Poppins", sans-serif;
+}
+
+.ar1 {
+      display: flex;
+      width: 100vw;
+      height: 110vh;
+}
+
+.ghero {
+      padding-right: 15vw;
+      padding-left: 5vw;
+      padding-top: 25vh;
+      margin: 0%;
+}
+
+.ghero p {
+      font-size: 1.3vw;
+      padding-top: 1vh;
+}
+
+.minhero {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 1.5vw;
+      max-width: 30vh;
+}
+
+.subhero {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 2vw;
+}
+
+.hero {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 3vw;
+      padding-right: 0vw;
+      margin-right: 0;
+      width: 70vh;
+}
+
+.subhero span {
+      color: rgb(21, 102, 255);
+}
+
+.exb {
+      display: flex;
+      font-family: "Poppins", sans-serif;
+      list-style: none;
+      padding-top: 7vh;
+}
+
+.exb1 {
+      background-color: rgb(246, 247, 251);
+      border: solid 0.2vw black;
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+      font-size: 1.4vw;
+      padding: 1.5vh 1.5vw;
+      margin-right: 2vw;
+      text-decoration: unset;
+      transition: linear 0.2s;
+}
+
+.exb1 svg {
+      width: 1vw;
+}
+
+.exb2 {
+      background-color: rgb(246, 247, 251);
+      border-radius: 10px;
+      border: solid 0.2vw rgb(12, 203, 63);
+      color: rgb(12, 203, 63);
+      font-weight: 500;
+      font-size: 1.4vw;
+      padding: 1.5vh 1.5vw;
+      text-decoration: unset;
+      transition: linear 0.2s;
+}
+
+.exb1:hover {
+      background-color: rgb(0, 0, 0);
+      border: solid 0.2vw black;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+      font-size: 1.4vw;
+      padding: 1.5vh 1.5vw;
+      margin-right: 2vw;
+      text-decoration: unset;
+      transition: linear 0.2s;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.exb2:hover {
+      background-color: rgb(12, 203, 63);
+      border-radius: 10px;
+      border: solid 0.2vw rgb(12, 203, 63);
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+      font-size: 1.4vw;
+      padding: 1.5vh 1.5vw;
+      text-decoration: unset;
+      transition: linear 0.2s;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pic {
+      width: auto;
+      height: auto;
+}
+
+.ar2 {
+      font-family: "Poppins", sans-serif;
+      width: 100vw;
+      height: 110vh;
+}
+
+.prhead {
+      font-family: "Poppins", sans-serif;
+      padding-bottom: 5vh;
+      font-size: 1.5vw;
+      font-weight: 600;
+      text-align: center;
+      justify-items: center;
+}
+
+.prhead span {
+      color: rgb(21, 102, 255);
+}
+
+.prpag {
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.prpag1 {
+      background-color: white;
+      padding: 5vh 5vw;
+      width: 35vw;
+      border-radius: 15px;
+}
+
+.prpag1 h2 {
+      padding-bottom: 3vh;
+      font-size: 2vw;
+      font-weight: 600;
+}
+
+.prpag2 {
+      background-color: white;
+      padding: 5vh 5vw;
+      width: 35vw;
+      border-radius: 15px;
+}
+
+.prpag2 h2 {
+      padding-bottom: 3vh;
+      font-size: 2vw;
+      font-weight: 600;
+}
+
+.prpag1bod1, .prpag1bod2, .prpag1bod3 {
+      width: auto;
+      height: auto;
+      padding: 1vh;
+      padding-left: 1vw;
+      margin: 1.5vh 0vw;
+      border-radius: 15px;
+      background-color: rgb(246, 247, 251);
+
+}
+
+.prpag1bod1 p, .prpag1bod2 p, .prpag1bod3 p {
+      font-size: 1vw;
+      font-weight: 400;
+}
+
+.prpag1bod1 h3, .prpag1bod2 h3, .prpag1bod3 h3 {
+      font-size: 1.3vw;
+      font-weight: 500;
+}
+
+.prpag2bod1 p, .prpag2bod2 p, .prpag2bod3 p {
+      font-size: 1vw;
+      font-weight: 400;
+}
+
+.prpag2bod1 h3, .prpag2bod2 h3, .prpag2bod3 h3 {
+      font-size: 1.3vw;
+      font-weight: 500;
+}
+
+.prpag2bod1, .prpag2bod2, .prpag2bod3 {
+      width: auto;
+      height: auto;
+      padding: 1vh;
+      padding-left: 1vw;
+      margin: 1.5vh 0vw;
+      border-radius: 15px;
+      background-color: rgb(246, 247, 251);
+}
+.prjbut {
+      padding: 10vh 10vw;
+      text-align: center;
+      font-size: 1.3vw;
+      font-weight: 500;
+}
+
+.prjbut a {
+      background-color: rgb(246, 247, 251);
+      color: black;
+      font-size: 1.2vw;
+      text-decoration: none;
+      border-radius: 10px;
+      border: solid 0.2vw black;
+      padding: 1vh 1vw;
+      transition: linear 0.2s;
+}
+
+.prjbut a:hover {
+      background-color: black;
+      color: white;
+      font-size: 1.2vw;
+      text-decoration: none;
+      border-radius: 10px;
+      border: solid 0.2vw black;
+      padding: 1vh 1vw;
+      transition: linear 0.2s;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.prjbut svg {
+      width: 1vw;
+}
+
+.ar3 {
+      background-color: rgb(255, 255, 255);
+      max-width: 100vw;
+      max-height: 107vh;
+      padding-top: 5vh;
+      padding-bottom: 7vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      border-radius: 20px;
+      font-family: "Poppins", sans-serif;
+      box-shadow: 0px 0px 50px rgba(118, 116, 116, 0.1);
+}
+
+.abhead {
+      justify-items: center;
+      font-weight: 600;
+      font-size: 1.5vw;
+}
+
+.abhead span {
+      color: rgb(21, 102, 255);
+}
+
+.artig {
+      display: flex;
+      justify-content: center;
+}
+
+.abpar {
+      text-align: start;
+      font-weight: 400;
+      font-size: 1.3vw;
+      margin: 0;
+      padding-right: 5vw;
+      padding-left: 5vw;
+}
+
+.abpar span:hover {
+      color: blue;
+}
+
+.abpar1 {
+      padding-bottom: 5vh;
+}
+
+.abpic {
+      padding-left: 5vw;
+}
